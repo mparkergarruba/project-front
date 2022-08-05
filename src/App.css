@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: aqua;
 }
 
 .App-logo {
@@ -14,14 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App-link {
@@ -36,3 +30,39 @@
     transform: rotate(360deg);
   }
 }
+
+.navBar{
+  display:flex;
+  justify-content: center;
+}
+
+.navDiv {
+  color: black;
+  background-color: #Ff0098;
+  padding: 0.5rem 0.75rem;
+  display: inline-block;
+  cursor: pointer;
+  border: 2px solid #B300ff;
+  font-weight: 1000;
+}
+
+.athletes {
+  width: auto 100%;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1.5rem; 
+  justify-content: center;
+}
+
+.athlete {
+  max-width: 800px;
+  display: grid;
+  grid-template-rows: auto;
+  border: 2px solid #Ff0098;
+}
+
+.password{
+  width: 345px;
+}
+
+
